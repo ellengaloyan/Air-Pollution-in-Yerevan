@@ -38,7 +38,6 @@ Air-Pollution-in-Yerevan/
 - **SARIMA / SARIMAX** – for classical time-series baseline.
 - **XGBoost, SVR, Random Forest** – for traditional machine learning baselines.
 - **LSTM, Seq2Seq, BiLSTM** – for deep learning approaches to temporal modeling.
-- **Temporal Fusion Transformer (TFT)** – for high-capacity attention-based forecasting.
 - **Monte Carlo Simulation** – for scenario-based health impact estimation.
 
 ---
