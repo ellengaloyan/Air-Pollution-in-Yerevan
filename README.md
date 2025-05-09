@@ -1,3 +1,35 @@
+# Air Pollution Forecasting in Yerevan
+
+This project analyzes and forecasts PM2.5 air pollution levels in Yerevan using both classical statistical models and modern machine learning and deep learning methods, including LSTM and Monte Carlo simulations. The data includes historical pollution levels and derived weather and seasonal features, with predictions at both daily and weekly levels.
+
+---
+
+## 📁 Repository Structure
+
+```
+Air-Pollution-in-Yerevan/
+├── Analysis/
+│   ├── TS_daily_data.ipynb               # Time Series analysis for daily data
+│   ├── TS_weekly_data.ipynb              # Time Series analysis for weekly data
+│   ├── lstm.ipynb                        # LSTM model for daily PM2.5 prediction
+│   ├── monte_carlo_mortality.ipynb       # Monte Carlo mortality simulations
+│   ├── data_analysis.ipynb               # EDA and feature engineering
+├── Data/
+│   ├── Final data/
+│   │   ├── df_daily.csv                  # Cleaned and processed daily data
+│   │   ├── df_weekly.csv                 # Cleaned and processed weekly data
+│   ├── Raw data/
+│   │   ├── Daily data/                   # Raw PM2.5 data (hourly & daily)
+│   │   └── Weekly data/                  # Aggregated weekly data
+├── Error comparisons/
+│   ├── daily_error.csv                   # RMSE and error metrics for daily models
+│   ├── error_weekly.csv                  # RMSE and error metrics for weekly models
+├── Forecasted values/
+│   ├── final_forecast_results_daily.csv  # Predicted PM2.5 values (daily)
+│   ├── forecast_comparison_weekly.csv    # Predicted PM2.5 values (weekly)
+├── Air_pollution.pdf                     # Project report (PDF)
+```
+
 
 ---
 
